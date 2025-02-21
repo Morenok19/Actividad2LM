@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "TipografiaAdjunta";
+    src: url(fonts/Breaking\ Bad.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.fondoConImagen {
+    background-image: url(img/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.texto {
+    color: white;
+    text-align: center;
+    font-family: "TipografiaAdjunta", sans-serif;
+}
+.poster {
+    width: 700px;
+    height: 300px;
+    border: brown 10px outset;
+    border-radius: 22px;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+form {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgba(148, 148, 148, 0.425);
+    display: block;
+    color: white;
+}
+input, label {
+    display: block;
+}
+.ClaseAgrupada {
+    display: inline-block;
+}
+#Enviar{
+    margin-top: 1rem;
+}
+#DelBut{
+    margin-top: 1rem;
+}
+textarea{
+    height: 70px;
+    width: 400px;
+}
+.Email {
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 10px;
+}
+.fondoTabla {
+    background-color: #0c3e11;
+}
+table {
+    margin:auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    font-size: 10px;
+}
+.tr {
+    height: 60px;   
+}
+.letraGrande {
+    font-size: 40px;
+}  
+
+.celdaVerde {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #b8d82c;
+}
+.celdaNegra{
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: black;
+}
+.celdaDarkOliveGreen{
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+.celdaVerdeOscuro1{
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #89a418;
+}
+.celdaVerdeOscuro2{
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #627126;
+}
+.celdaImagen {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    object-fit: cover;
+}
+.celdaVerdeClaro {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #daed88;
+}
+.celdaOtroColor {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #bbc49f;
+}
+.celdaMorada {
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #ad8eca;
+}
+.celdaClaro{
+    width: 80px;
+    border: 8px solid black;
+    text-align: center;
+    background-color: #eff7c8;
+}
+.celdaAbajo {
+    width: 80px;
+    background-color: #c3c629;
+}

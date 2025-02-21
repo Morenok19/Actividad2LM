@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>Formulario</title>
+</head>
+<body class="fondoConImagen">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Breaking Bad - Que empiece el juego!</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre*:</label>
+                <input type="text" name="Nombre" placeholder="Introduzca su nombre" required>
+                <label for="Apellidos">Apellidos*:</label>
+                <input type="apellidos" name="Apellidos" placeholder="Introduzca sus apellidos" required>
+                <label for="Sexo">Sexo:</label>
+                <input type="radio" name="Sexo" class="ClaseAgrupada">Hombre
+                <input type="radio" name="Sexo" class="ClaseAgrupada">Mujer
+                <label for="Email">Email*:</label>
+                <input type="email" name="Email" id="Email" placeholder="ejemplo123@gmail.com" required>
+                <fieldset>   
+                    <legend>Dirección Postal</legend>
+                    <label for="Calle">Calle:</label>
+                    <input type="text" name="Calle" id="Calle">
+                    <label for="NumeroCalle">Número:</label>
+                    <input type="number" name="NumeroCalle" id="NumeroCalle">
+                    <label for="NumeroPiso">Piso:</label>
+                    <input type="number" name="NumeroPiso" id="NumeroPiso">
+                    <label for="Puerta">Puerta:</label>
+                    <input type="text" name="Puerta" id="Puerta">
+                </fieldset>    
+            </fieldset>
+            <fieldset>
+                <legend>Seleccion de personaje</legend>
+                <label for="personaje">Elige un personaje:</label>
+                <select name="personaje" id="personaje" >
+                    <option value="Jessie">Jessie Pinkman</option>
+                    <option value="Walter">Walter White</option>
+                    <option value="Jessie">Jessie Pinkman</option>
+                    <option value="Saul">Saul Goodman</option>
+                    <option value="Pollos">Pollos Hermanos</option>
+                    <option value="Otros">Otros Personajes</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="Comentarios" id="Comentarios"></textarea>
+            </fieldset>
+            <label for="archivo">Selecione un archivo:</label>
+            <input type="file" id="archivo" name="archivo">
+            <input type="submit" id="Enviar" value="Enviar">
+            <input type="reset" value="Borrar" id="DelBut">
+        </fieldset>
+
+    </form>
+</body>
+</html>
